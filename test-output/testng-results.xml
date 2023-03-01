@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-01T13:20:50 IST" name="mysuite2" finished-at="2023-03-01T13:21:01 IST" duration-ms="11062">
+    <groups>
+    </groups>
+    <test started-at="2023-03-01T13:20:50 IST" name="Test2" finished-at="2023-03-01T13:21:01 IST" duration-ms="11062">
+      <class name="dataprovider2.DataProvider_2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dataprovider2.DataProvider_2@b9b00e0]" started-at="2023-03-01T13:20:50 IST" name="setup" finished-at="2023-03-01T13:20:57 IST" duration-ms="6650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:dataprovider2.DataProvider_2@b9b00e0]" started-at="2023-03-01T13:20:57 IST" name="login" data-provider="dp" finished-at="2023-03-01T13:21:01 IST" duration-ms="3859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:dataprovider2.DataProvider_2@b9b00e0]" started-at="2023-03-01T13:21:01 IST" name="closeapp" finished-at="2023-03-01T13:21:01 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- dataprovider2.DataProvider_2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- mysuite2 -->
+</testng-results>

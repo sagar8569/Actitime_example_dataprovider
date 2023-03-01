@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mysuite2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="dataprovider2.DataProvider_2">
+        <methods>
+          <include name="setup"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- dataprovider2.DataProvider_2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [mysuite2] -->
